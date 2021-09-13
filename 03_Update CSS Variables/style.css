@@ -1,0 +1,46 @@
+
+/*--------General layout---------*/
+
+body {
+    text-align: center;
+    background: rgb(37, 99, 83);
+    background-image: url("noun_leaf_4231519.png");
+    background-size: 50px;
+    color: wheat;
+    text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    font-family: serif;
+    font-weight: 100;
+    font-size: 45px;
+  }
+
+  .controls {
+    margin-bottom: 50px;
+  }
+
+  input {
+    width: 100px;
+  }
+
+  img {
+    max-width: 60%;
+    height: auto;
+  }
+
+/*--------layout throug JS---------*/
+:root {
+    --base: #A8E7E9;
+    --spacing: 0 px;
+    --blur: 0 px;
+}
+
+img {
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+
+.text {
+    color: var(--base);
+}
+
+
